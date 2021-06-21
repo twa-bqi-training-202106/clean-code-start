@@ -1,7 +1,7 @@
 package com.tw.academy.basic.$3_feature_envy;
 
-import com.tw.academy.basic.$3_feature_envy.practiceTwo.Customer;
-import com.tw.academy.basic.$3_feature_envy.practiceTwo.Phone;
+import com.tw.academy.basic.$3_feature_envy.practiceOne.Customer;
+import com.tw.academy.basic.$3_feature_envy.practiceOne.Phone;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

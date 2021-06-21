@@ -1,7 +1,7 @@
 package com.tw.academy.basic.$3_feature_envy;
 
-import com.tw.academy.basic.$3_feature_envy.practiceOne.LineItem;
-import com.tw.academy.basic.$3_feature_envy.practiceOne.Order;
+import com.tw.academy.basic.$3_feature_envy.practiceTwo.LineItem;
+import com.tw.academy.basic.$3_feature_envy.practiceTwo.Order;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;

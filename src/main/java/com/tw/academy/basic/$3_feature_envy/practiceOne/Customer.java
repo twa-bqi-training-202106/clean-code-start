@@ -1,4 +1,4 @@
-package com.tw.academy.basic.$3_feature_envy.practiceTwo;
+package com.tw.academy.basic.$3_feature_envy.practiceOne;
 
 public class Customer {
     private Phone mobilePhone;

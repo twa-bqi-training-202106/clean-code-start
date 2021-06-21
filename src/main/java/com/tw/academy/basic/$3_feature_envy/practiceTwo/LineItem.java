@@ -1,4 +1,4 @@
-package com.tw.academy.basic.$3_feature_envy.practiceOne;
+package com.tw.academy.basic.$3_feature_envy.practiceTwo;
 
 public class LineItem {
 	private String description;

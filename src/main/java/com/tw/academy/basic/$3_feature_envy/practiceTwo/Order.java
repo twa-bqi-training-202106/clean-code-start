@@ -1,4 +1,4 @@
-package com.tw.academy.basic.$3_feature_envy.practiceOne;
+package com.tw.academy.basic.$3_feature_envy.practiceTwo;
 
 import java.util.List;
 
@@ -15,11 +15,8 @@ public class Order {
 
     public double calculateTotalPrice() {
         return lineItems.stream()
-                .mapToDouble(lineItem -> calculateSubTotal(lineItem))
+                .mapToDouble(lineItem -> lineItem.getPrice() * lineItem.getQuantity())
                 .sum();
     }
 
-    private double calculateSubTotal(LineItem lineItem) {
-        return lineItem.getPrice() * lineItem.getQuantity();
-    }
 }
