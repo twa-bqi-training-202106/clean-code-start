@@ -20,10 +20,10 @@ public class DeliveryManager {
     }
 
     private String getCity(String address) {
-        return address.substring(address.indexOf("省") + 1, address.indexOf("市"));
+        return address.substring(address.indexOf("Province") + 1, address.indexOf("City"));
     }
 
     private String getProvince(String address) {
-        return address.substring(0, address.indexOf("省"));
+        return address.substring(0, address.indexOf("Province"));
     }
 }
