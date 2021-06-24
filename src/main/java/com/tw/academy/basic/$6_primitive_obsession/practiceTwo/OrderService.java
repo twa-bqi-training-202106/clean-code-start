@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class OrderService {
 
     /**
-     * 已预定
+     * booked
      */
     public HashMap<String, HashMap<String, HashMap<String, Integer>>> ordered = new HashMap<>();
 
